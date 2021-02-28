@@ -1,0 +1,165 @@
+*{
+    background-color: black;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    .bad {
+        height: 80px;
+    
+    }
+    nav {
+        float: right;
+
+    }
+    .derecha{
+        height: 80px;
+        width: 400px;
+        
+        float: right;
+    }
+
+    ul {list-style-type:none;
+        color: gold;
+     
+    }
+
+    ul li {
+        float: left;
+        margin-right: 10px;
+        transition: all 1s;
+        padding: 8px;
+        &:hover {
+            transform: translateY(5px);   
+            cursor: pointer;
+        }
+        
+
+
+    }
+
+    h1 {
+        color: gold;
+        font-family: "Pacifico"; 
+        text-align: center;
+        padding: 50px;
+        font-size: 4em;
+        
+    }
+    
+    h2 {
+
+        color: gold;
+        font-family: "Arvo";
+        text-align: center;
+    
+    }
+
+    #p1 {
+        color: indigo;
+        font-family: "Asap";
+        text-align: center;
+        border: 2px
+    }
+
+    button {
+        padding: 5px 30px;
+        background: rgb(238,174,202);
+        background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+        cursor: pointer;
+        transition: all 0.5s;
+        margin: auto;
+        position: relative;
+        left: 44%;
+        &:hover {
+            transform: scale(1.5);
+        }
+
+    }
+
+    #p2 {
+        color: gold;
+        font-family: "Arvo";
+        text-align: center;
+        padding: 10px
+    }
+
+    #p3 {
+        color: gold;
+        text-align: center;
+        padding: 30px;
+        font-family: "Arvo";
+    }
+
+    ol li {
+        color: indigo;
+        text-align: center;
+        padding: 10px;
+        font-family: "Asap";
+        list-style-type: none;
+    
+    }
+
+    #tabla {
+        margin: auto;
+        
+    }
+
+    .tabla1 {
+        color: gold;
+        font-family: "Arvo";
+    
+    
+    
+    }
+
+    #tr1, #tr2, #tr3 {
+        color: indigo;
+        text-align: center;
+        font-family: "Asap";
+    }
+
+    #table {
+        margin: auto;
+    }
+
+    .vinculo {
+        text-align: center;
+        padding: 10px;
+        color: maroon;
+    }
+
+    .spotify {
+        display: block;
+        margin: auto;
+        padding: 2px;
+        border: 2px solid gold;
+    }
+
+    
+
+    
+        
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+

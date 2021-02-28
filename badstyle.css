@@ -1,0 +1,135 @@
+* {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body .bad {
+  height: 80px;
+}
+
+body nav {
+  float: right;
+}
+
+body .derecha {
+  height: 80px;
+  width: 400px;
+  float: right;
+}
+
+body ul {
+  list-style-type: none;
+  color: gold;
+}
+
+body ul li {
+  float: left;
+  margin-right: 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  padding: 8px;
+}
+
+body ul li:hover {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  cursor: pointer;
+}
+
+body h1 {
+  color: gold;
+  font-family: "Pacifico";
+  text-align: center;
+  padding: 50px;
+  font-size: 4em;
+}
+
+body h2 {
+  color: gold;
+  font-family: "Arvo";
+  text-align: center;
+}
+
+body #p1 {
+  color: indigo;
+  font-family: "Asap";
+  text-align: center;
+  border: 2px;
+}
+
+body button {
+  padding: 5px 30px;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: auto;
+  position: relative;
+  left: 44%;
+}
+
+body button:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+body #p2 {
+  color: gold;
+  font-family: "Arvo";
+  text-align: center;
+  padding: 10px;
+}
+
+body #p3 {
+  color: gold;
+  text-align: center;
+  padding: 30px;
+  font-family: "Arvo";
+}
+
+body ol li {
+  color: indigo;
+  text-align: center;
+  padding: 10px;
+  font-family: "Asap";
+  list-style-type: none;
+}
+
+body #tabla {
+  margin: auto;
+}
+
+body .tabla1 {
+  color: gold;
+  font-family: "Arvo";
+}
+
+body #tr1, body #tr2, body #tr3 {
+  color: indigo;
+  text-align: center;
+  font-family: "Asap";
+}
+
+body #table {
+  margin: auto;
+}
+
+body .vinculo {
+  text-align: center;
+  padding: 10px;
+  color: maroon;
+}
+
+body .spotify {
+  display: block;
+  margin: auto;
+  padding: 2px;
+  border: 2px solid gold;
+}
+/*# sourceMappingURL=badstyle.css.map */
